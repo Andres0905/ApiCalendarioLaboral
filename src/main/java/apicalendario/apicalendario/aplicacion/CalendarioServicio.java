@@ -11,8 +11,8 @@ import apicalendario.apicalendario.core.interfaces.repositorios.ICalendarioRepos
 import apicalendario.apicalendario.core.interfaces.repositorios.ITipoRepositorio;
 import apicalendario.apicalendario.core.interfaces.servicios.ICalendarioServicio;
 import apicalendario.apicalendario.dominio.Calendario;
-import apicalendario.apicalendario.dominio.Tipo;
 import apicalendario.apicalendario.dominio.DTOs.EsFestivoDto;
+import apicalendario.apicalendario.dominio.Tipo;
 
 @Service
 public class CalendarioServicio implements ICalendarioServicio {

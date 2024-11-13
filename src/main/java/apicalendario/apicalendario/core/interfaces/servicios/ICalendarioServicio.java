@@ -1,7 +1,7 @@
 package apicalendario.apicalendario.core.interfaces.servicios;
-import apicalendario.apicalendario.dominio.Calendario;
-
 import java.util.List;
+
+import apicalendario.apicalendario.dominio.Calendario;
 
 public interface ICalendarioServicio {
     
@@ -10,5 +10,4 @@ public interface ICalendarioServicio {
     void generarCalendarioAnual(int year);
 
     
-  
 }
